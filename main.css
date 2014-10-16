@@ -1,0 +1,36 @@
+#wrapper{
+    position: relative;
+    margin: -20px auto;
+    width: 750px;
+    height: 750px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #e6b800;
+}
+
+#inner-wrapper{
+    margin: 35px auto;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.row-wrapper{
+    display: flex;
+    flex-grow: 1;
+}
+
+.grid-square{
+    flex-grow: 1;
+    background-color: #52a3cc;
+}
+
+#grid-button{
+    position: absolute;
+    margin: auto;
+    bottom: -30px;
+    right: 90%;
+}
